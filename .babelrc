@@ -1,0 +1,19 @@
+{
+  "presets": [
+    [
+      "@babel/preset-env",
+      {
+        "targets": {
+          "browsers": ["last 2 versions", "safari >= 7"]
+        },
+        "modules": "auto"
+      }
+    ],
+    "@babel/preset-typescript"
+  ],
+  "plugins": [
+    // "@babel/plugin-transform-runtime",
+    "@babel/plugin-proposal-class-properties"
+  ],
+  "ignore": ["node_modules"]
+}
