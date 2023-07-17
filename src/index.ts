@@ -1,6 +1,6 @@
 console.log("Hello World");
 
-export const hello = "Hello World";
+export const hello = "Hello Designer";
 export class Designer {
   constructor() {
     console.log("Designer constructor");
